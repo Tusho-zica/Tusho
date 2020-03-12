@@ -1,0 +1,20 @@
+Modelagem:
+
+Domínio: 
+"O que o software faz? O que é importante para resolver o problema e o que não é."
+    Entidades (Classe):
+    "Quais são as entidades que são mais importantes dentro deste domínio?"
+        Características (Atributos / Propriedade) [muito parecido com variáveis]:
+        "Tudo o que a gente ja tem. Quais as caracteristicas do nosso produto"
+        Comportamento(Métodos)[muito parecidos com funções]:
+        "Tudo o que gera demanda / execução."
+
+
+Estrutura       VS           Estado
+    |                           |
+  Classe                     Objetos
+
+  Estrutura (de dados): A GRANDE IMPORTÂNCIA é que a estrutura de dados seja o mais genérico possível.
+  Ela precisa servir para qualquer caso que seja utilizado.
+
+  Objeto: A ideia do objeto é que ele seja particular, ou seja, que ele seja pessoal e que seja unico.
