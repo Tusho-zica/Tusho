@@ -1,4 +1,5 @@
 # Home work: logica para ler um texto com aspas na mão, sem usar método de CSV.
+# pegue uma matriz biddimensional e transforme em um vetor.
 
 fileHandler = open('./aluno.csv', 'r', encoding = 'utf-8')
 content = fileHandler.readlines()

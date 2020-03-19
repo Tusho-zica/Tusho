@@ -1,0 +1,36 @@
+Estrutura de dados
+
+1.
+Introdução
+Dicionário, Tuplas
+
+2.
+Recursividade
+
+3.
+AKA - Análise de complexidade de Algoritmos
+Busca e Ordenação
+Fila e Pilha
+
+4. 
+Árvores - Introdução e Aplicação
+Tipos de Árvore
+
+5.
+Implementar Árvores
+Busca em árvores
+
+6.
+Grafos - Introdução e Aplicação
+Propriedades
+Representações
+
+7.
+Percorrer Grafos - BFS DFS
+
+8.
+DIJKSTRA
+
+9.Projeto
+
+10. Avaliações

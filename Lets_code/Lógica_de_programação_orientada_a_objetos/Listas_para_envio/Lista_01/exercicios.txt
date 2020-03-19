@@ -1,0 +1,110 @@
+LISTA 1
+
+1.
+Faça um programa que leia o salário mensal atual de um funcionário e o percentual de reajuste. Calcular e escrever o valor do novo salário.
+
+2.
+Dado o salário fixo, o valor das vendas efetuadas pelo vendedor de uma empresa e sabendo-se que ele recebe uma comissão de 3% sobre o total das vendas até R$ 1.500,00 e 5% sobre o que ultrapassar este valor, calcular e escrever o seu salário total.
+
+3.
+Implemente um programa que lê três valores e três pesos. calcule e mostre a média ponderada
+
+4.
+Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido. Obs: O programa deve funcionar para letras maiúsculas e minúsculas.
+
+5.
+Elabore um algoritmo que dada a idade de um nadador classifica-o em uma das seguintes categorias:
+
+infantil A = 5-7 anos;
+infantil B = 8-10 anos;
+juvenil A = 11-13 anos;
+juvenil B = 14-17 anos;
+adulto = maiores de 18 anos
+
+6.
+Prepare um algoritmo para realizar o cálculo do preço de um serviço de Consultoria. Seu algoritmo deverá perguntar os seguintes dados e informar o valor total do serviço:
+
+Tipo de Serviço (Projeto ou Auditoria)
+N.o dias trabalhados
+N.o de viagens realizadas Você deve usar a seguinte tabela para calcular o valor dos serviços:
+Tipo de serviço	Dia de trabalho	Cada viagem
+Projeto				200,00			500,00
+Auditoria			100,00			1500,00
+
+7.
+Prepare um algoritmo para informar o total gasto em uma lavanderia. O algoritmo inicialmente deverá perguntar o total de camisas, o total de calças e o total de meias e informar o total gasto, levando em conta a seguinte tabela de preços:
+
+Camisas : 5.00
+Calças : 10.00
+Meias : 2.00
+Depois de informar o total gasto, o algoritmo deverá perguntar ao usuário se o mesmo deseja fazer um novo cálculo de gasto, caso a resposta seja positiva, o algoritmo deverá retornar ao seu início, caso contrário deverá ser finalizado.
+
+8.
+Prepare um algoritmo para perguntar 10 números e informar a soma total destes números.
+
+9.
+Faça um programa que escreva todos os números múltiplos de 7 entre 1 e N, sendo N um valor introduzido pelo utilizador. Por exemplos: 7, 14, 21, 28, 35.
+
+10.
+Prepare um algoritmo para perguntar o nome, o sexo e a idade de 40 pessoas e informar:
+
+a média de idades
+a média de idades dos homens
+o total de mulheres
+
+11.
+Faça um algoritmo para simular uma situação simples de depósito, retirada e consulta em um banco. O algoritmo inicialmente deverá mostrar um menu com as seguintes opções:
+
+Depósito
+Retirada
+Saldo
+Sair do algoritmo
+Se a escolha do usuário for depósito ou retirada, o algoritmo deverá pedir o valor da operação e atualizar automaticamente o valor existente na conta. O algoritmo deverá ser utilizado até que o usuário escolha a opção sair do algoritmo.
+
+LISTA 2
+
+1.
+Faça um programa que, dadas duas listas de mesmo tamanho, crie uma nova lista com cada elemento igual a soma dos elementos da lista 1 com a lista 2, na mesma posição. Exemplo: dadas lista1 = [1, 4, 5] e lista2 = [2, 2, 3], então lista3 = [1+2, 4+2, 5+3] = [3, 6, 8]
+
+2.
+Faça um programa que imprima o maior número de uma lista, sem usar max().
+
+3.
+Faça um programa que pede para o usuário digitar 5 números e, ao final, imprime uma lista com os 5 números digitados pelo usuário (sem converter os número para int ou float).
+
+Exemplo: Se o usuário digitar 1, 5, 2, 3, 6 o programa deve imprimir a lista ['1','5','2','3','6']
+
+4.
+Programa que leia do teclado uma lista de 6 elementos e inverta esta lista (sem usar funções prontas da linguagem).
+
+5.
+Nome na vertical em escada. Crie um programa que peça uma string para o usuário e imprima de forma a mostrar o nome em formato de escada.
+
+F
+FU
+FUL
+FULA
+FULAN
+FULANO
+
+LISTA 3
+
+1.
+Faça uma função chamada somaImposto. A função possui dois parâmetros: taxa_imposto, que é a quantia de imposto sobre vendas expressa em porcentagem e custo, que é o custo de um item antes do imposto. A função retorna o valor de custo para incluir o imposto sobre vendas.
+
+2.
+Faça uma função chamada toPM_AM que converta da notação de 24 horas para a notação de 12 horas. Por exemplo, o programa deve converter 14:25 em 2:25 PM ou 7:00 em 7:00 AM. A entrada é dada em dois inteiros (horas e minutos). Inclua um loop que permita que o usuário repita esse cálculo para novos valores de entrada todas as vezes que desejar.
+
+3.
+Faça uma função chamada inverte_numero que retorne o reverso de um número inteiro informado. Por exemplo: 127 -> 721.
+
+4.
+Faça uma função que recebe um dia da semana identificado como 0=Dom, 1=Seg, 2=Ter, ... 6=Sáb, e um booleano indicando se estamos ou não em férias, retorne uma string na forma "7:00" indicando a hora em que o alarme deve tocar. Em dias de semana, o alarme deve tocar às "7:00" e nos fins de semana, o alarme deve tocar às "10:00". A menos que estejamos de férias, nesse caso, em dias de semana, o alarme deve tocar às "10:00" e em fins de semana a resposta do alarme deve ser "off". Chame essa função de set_alarm.
+
+5.
+Faça uma função que receba uma string e retorne uma versão "invertido à esquerda de 2" onde os dois primeiros caracteres são movidos para o final. O tamanho da string será ao menos 2. Chame essa função de left_2.
+
+Ex: left_2('Hello') -> 'lloHe'
+
+6.
+Faça uma função que receba uma lista de inteiros, e retorne True caso a sequência 1, 2, 3 apareça na lista em algum lugar, caso contrário, retorne False. Chame essa função de has_123.

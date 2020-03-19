@@ -5,7 +5,10 @@ class Aluno():
         self.n1 = n1
         self.n2 = n2
         self.n3 = n3
-    
+
+    def media(self):
+        return ((self.n1 + self.n2 + self.n3) / 3)
+
     def __str__(self):
         return f'nome : {self.aluno}, ra : {self.ra}, n1 : {self.n1}, n2 : {self.n2}, n3 : {self.n3}'
 
@@ -23,5 +26,8 @@ print([str(aluno) for aluno in alunos])
 notas1 = [aluno.n1 for aluno in alunos]
 print(notas1)
 
-media = sum(notas1) / len(notas1)
+median1 = sum(notas1) / len(notas1)
+print (median1)
+
+media = [aluno.media for aluno in alunos]
 print (media)

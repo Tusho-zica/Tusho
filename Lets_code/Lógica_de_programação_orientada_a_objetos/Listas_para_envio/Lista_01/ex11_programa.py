@@ -1,10 +1,10 @@
-from ex06_cliente import Cliente
-from ex06 import ContaCorrente
+from ex11_cliente import Cliente
+from ex11_Conta_Corrente import ContaCorrente
 
 class Programa:
     
     def __init__(self):
-        self.contaCorrente = ContaCorrente(Cliente, )
+        self.contaCorrente = ContaCorrente(Cliente,0)
 
     def main(self):
 
