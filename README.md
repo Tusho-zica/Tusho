@@ -1,2 +1,6 @@
-# Tusho
-Piscina C 42
+# Lucas Kawachi Leite
+Python materials
+
+42 subjects
+
+Let's Code - codes
